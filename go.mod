@@ -1,4 +1,4 @@
-module go-http-file-server
+module github.com/Coder-Kuldeep-Singh/go-file-server
 
 go 1.20
 

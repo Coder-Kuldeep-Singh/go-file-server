@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-http-file-server/internal/server"
+
+	"github.com/Coder-Kuldeep-Singh/go-file-server/internal/server"
 )
 
 func main() {

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rename</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { margin-top: 20px; }
+        input[type="text"] { width: 300px; padding: 5px; }
+        input[type="submit"] { margin-top: 10px; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <h1>Rename: {{.}}</h1>
+    <form action="/rename/{{.}}" method="post">
+        <label for="newName">New Name:</label><br>
+        <input type="text" id="newName" name="newName" value="{{.}}"><br>
+        <input type="submit" value="Rename">
+    </form>
+    <p><a href="/">Back to File Browser</a></p>
+</body>
+</html>
